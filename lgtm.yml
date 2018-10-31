@@ -1,0 +1,16 @@
+extraction:
+    cpp:
+        prepare:
+            packages:
+                - autoconf2.13
+        index:
+            build_command:
+                - ./build.sh
+    javascript:
+        index:
+            filters:
+                - exclude: "**/*"
+    python:
+        index:
+            filters:
+                - exclude: "**/*"
